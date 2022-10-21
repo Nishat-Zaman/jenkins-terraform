@@ -9,7 +9,7 @@ pipeline {
     stages {
          stage('checkout') {
              steps {
-        git([url: 'https://github.com/arjunachari12/jenkins-terraform.git', branch: 'main'])
+        git([url: 'https://github.com/Nishat-Zaman/jenkins-terraform.git', branch: 'main'])
  
            }
 
